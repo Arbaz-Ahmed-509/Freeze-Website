@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eeebec;
+    padding: 25px 0 25px 0;
+}
+.header img{
+    margin-top: -5PX;
+    padding: 3PX 0 10PX 40PX;
+}
+.header-link ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 35PX;
+    
+}
+.header-link ul li {
+    width: 100px;
+    margin-left: 30px;
+    
+}
+.header-link ul li a{
+    text-decoration: none;
+    color: #7a6666;
+}
+.header-link ul li a:hover{
+    color: #c8c10d;
+}
+.header-link ul li .sub{
+    color: #eeebec;
+    margin-left: -13PX;
+}
+
+.home{
+    background-color: #f8f8f8;
+    width:100%;
+    text-align: center;
+}
+
+
+.circles{
+    position: absolute;
+    left: 870px;
+    top: 549px;
+
+}
+.outer-circle{
+    border:solid 0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #c8c10d;
+}
+.inner-circle{
+    border:solid 0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:#cb3363df ;
+    margin: 15px;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 22px;
+    font-family:sans-serif;
+}
+.freez{
+    padding: 47px 6px 24px 0;
+}
+.circles a{
+    text-decoration: none;
+}
+
+
+.textlink{
+    background-color:#eae7e8;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -4PX;
+}
+.text{
+    padding: 50px 0 0 45px;
+}
+.text1{
+    font-size: 21px;
+    color: #7A6666;
+    font-weight: bolder; 
+}
+.text2{
+    font-size: 30px;
+    margin-top: 15px;
+    color: #E32A62;
+    font-weight: bolder;
+}
+.text3{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #7a6666;
+}
+.text3 a{
+    color:#7a6666 ;
+}
+.text3 a:hover{
+    color: #c8c10d;
+}
+
+
+.container{
+    background-color: #c8c10d;
+    padding: 24px 0 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -4px;
+}
+.container img{
+    height: 50px;
+    width: 60px;
+    margin-left: 35px;
+}
+.container .text1{
+    font-size: 26px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: -10px;
+}
+.container .text3{
+    font-size: 27px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: -1px;
+    font-weight: bold;
+}
+
+
+.footer{
+    background-color:#cb3362;
+    height: 300px;
+    width: 100%;  
+}
+.icons {
+   padding: 50px 0 2px 500px;
+}
+.icons img{
+    margin:22px;
+    height: 35px;
+}
+
+.last{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: -17px;
+    color:white; 
+}
+
+
+
+
+
+
+
